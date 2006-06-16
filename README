@@ -1,0 +1,183 @@
+ORBit2
+-------------------------------------------
+ORBit2 is a CORBA 2.4-compliant Object Request Broker (ORB) featuring
+mature C and Perl bindings.  It supports POA, DII, DSI, TypeCode, Any, 
+IR and IIOP.  Optional features including INS and threading are 
+available. ORBit2 is engineered for the GNU Object Model Environment 
+(GNOME) with a focus on performance, low resource usage, and security.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  glib2-2.8.6-1
+  libIDL2-0.8.6-1
+  libpopt0-1.6.4-4
+  minires-1.00-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.7-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gtk-doc-1.5-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://orbit-resource.sourceforge.net/
+
+Canonical download:
+  http://ftp.gnome.org/pub/GNOME/sources/ORBit2/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ORBit2-2.14.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ORBit2-2.14.0-X.cygport all
+
+This will create:
+  /usr/src/ORBit2-2.14.0-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.0-X.tar.bz2
+  /usr/src/ORBit2-devel-2.14.0-X.tar.bz2
+  /usr/src/ORBit2-doc-2.14.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cygORBit-2-0.dll
+  /usr/bin/cygORBit-imodule-2-0.dll
+  /usr/bin/cygORBitCosNaming-2-0.dll
+  /usr/bin/ior-decode-2.exe
+  /usr/bin/linc-cleanup-sockets.exe
+  /usr/bin/typelib-dump.exe
+  /usr/lib/orbit-2.0/Everything_module.dll
+  /usr/lib/orbit-2.0/Everything_module.la
+  /usr/share/doc/Cygwin/ORBit2-2.14.0.README
+  /usr/share/doc/ORBit2-2.14.0/AUTHORS
+  /usr/share/doc/ORBit2-2.14.0/ChangeLog
+  /usr/share/doc/ORBit2-2.14.0/COPYING
+  /usr/share/doc/ORBit2-2.14.0/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.0/HACKING
+  /usr/share/doc/ORBit2-2.14.0/INSTALL
+  /usr/share/doc/ORBit2-2.14.0/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.0/NEWS
+  /usr/share/doc/ORBit2-2.14.0/README
+  /usr/share/doc/ORBit2-2.14.0/TODO
+
+Files included in the devel package:
+
+  /usr/bin/orbit-idl-2.exe
+  /usr/bin/orbit2-config
+  /usr/include/orbit-2.0/ORBitservices/CosNaming.h
+  /usr/include/orbit-2.0/ORBitservices/CosNaming_impl.h
+  /usr/include/orbit-2.0/ORBitservices/orbit-imodule.h
+  /usr/include/orbit-2.0/orbit-idl/orbit-idl-backend.h
+  /usr/include/orbit-2.0/orbit/dynamic/dynamic-defs.h
+  /usr/include/orbit-2.0/orbit/dynamic/dynamic.h
+  /usr/include/orbit-2.0/orbit/orb-core/allocators.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-any-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-any.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-context-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-context.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-defs.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-environment-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-environment.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-nvlist.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-object-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-object.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-orb-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-orb.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-pobj.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-policy-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-string.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-typecode-type.h
+  /usr/include/orbit-2.0/orbit/orb-core/corba-typecode.h
+  /usr/include/orbit-2.0/orbit/orb-core/iop-defs.h
+  /usr/include/orbit-2.0/orbit/orb-core/orb-core-types.h
+  /usr/include/orbit-2.0/orbit/orb-core/orb-core.h
+  /usr/include/orbit-2.0/orbit/orb-core/orb-types.h
+  /usr/include/orbit-2.0/orbit/orb-core/orbit-interface.h
+  /usr/include/orbit-2.0/orbit/orb-core/orbit-object.h
+  /usr/include/orbit-2.0/orbit/orb-core/orbit-small.h
+  /usr/include/orbit-2.0/orbit/orbit-config.h
+  /usr/include/orbit-2.0/orbit/orbit-types.h
+  /usr/include/orbit-2.0/orbit/orbit.h
+  /usr/include/orbit-2.0/orbit/poa/orbit-adaptor.h
+  /usr/include/orbit-2.0/orbit/poa/poa-basics.h
+  /usr/include/orbit-2.0/orbit/poa/poa-defs.h
+  /usr/include/orbit-2.0/orbit/poa/poa-policy.h
+  /usr/include/orbit-2.0/orbit/poa/poa-types.h
+  /usr/include/orbit-2.0/orbit/poa/poa.h
+  /usr/include/orbit-2.0/orbit/poa/portableserver-current-type.h
+  /usr/include/orbit-2.0/orbit/poa/portableserver-poa-type.h
+  /usr/include/orbit-2.0/orbit/util/basic_types.h
+  /usr/include/orbit-2.0/orbit/util/orbit-genrand.h
+  /usr/include/orbit-2.0/orbit/util/orbit-util.h
+  /usr/lib/libORBit-2.dll.a
+  /usr/lib/libORBit-2.la
+  /usr/lib/libORBit-imodule-2.dll.a
+  /usr/lib/libORBit-imodule-2.la
+  /usr/lib/libORBitCosNaming-2.dll.a
+  /usr/lib/libORBitCosNaming-2.la
+  /usr/lib/libname-server-2.a
+  /usr/lib/pkgconfig/ORBit-2.0.pc
+  /usr/lib/pkgconfig/ORBit-CosNaming-2.0.pc
+  /usr/lib/pkgconfig/ORBit-idl-2.0.pc
+  /usr/lib/pkgconfig/ORBit-imodule-2.0.pc
+  /usr/share/aclocal/ORBit2.m4
+  /usr/share/idl/orbit-2.0/CosNaming.idl
+
+Files included in the doc package:
+
+  /usr/share/gtk-doc/html/ORBit2/ORBit2-orbit2-allocators.html
+  /usr/share/gtk-doc/html/ORBit2/ORBit2-orbit2-small.html
+  /usr/share/gtk-doc/html/ORBit2/ORBit2.devhelp
+  /usr/share/gtk-doc/html/ORBit2/ORBit2.devhelp2
+  /usr/share/gtk-doc/html/ORBit2/general.html
+  /usr/share/gtk-doc/html/ORBit2/home.png
+  /usr/share/gtk-doc/html/ORBit2/index.html
+  /usr/share/gtk-doc/html/ORBit2/index.sgml
+  /usr/share/gtk-doc/html/ORBit2/left.png
+  /usr/share/gtk-doc/html/ORBit2/right.png
+  /usr/share/gtk-doc/html/ORBit2/style.css
+  /usr/share/gtk-doc/html/ORBit2/up.png
+
+------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.5-1 -----
+Version bump.
+Created separate -doc package.
+
+----- version 2.12.3-1 -----
+New upstream release; gtk-doc documentation now included.
+
+----- version 2.12.0-1 -----
+New upstream release for GNOME 2.8.  For upstream changes, see 
+ChangeLog. Pre-built gtk-doc documentation was not included in this 
+version.
+
+Cygwin changes:
+* built against libintl3 (instead of libintl2);
+* now dependent on minires.
+* build fixes for gcc-3.3.3 (courtesy of Gerrit Haase).
+
+----- version 2.10.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
