@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2-devel libIDL2 libpopt0 minires-devel
+requires: cygwin glib2-devel libIDL2 libIDL2-devel minires-devel
 external-source: ORBit2
 sdesc: "CORBA 2.4 Object Request Broker library (development)"
 ldesc: "ORBit2 is a CORBA 2.4-compliant Object Request Broker (ORB) 
