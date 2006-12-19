@@ -7,25 +7,25 @@ available. ORBit2 is engineered for the GNU Object Model Environment
 (GNOME) with a focus on performance, low resource usage, and security.
 
 Runtime requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.22-1
   glib2-2.12.4-1
   libIDL2-0.8.7-1
   minires-1.00-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
-  automake1.6-1.6.3-1
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-2
+  automake1.6-1.6.3-2
   binutils-20050817-1
-  cygport-0.2.5-1
+  cygport-0.2.7-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   gtk-doc-1.7-1
   libtool1.5-1.5.23a-1
   make-3.81-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical homepage:
   http://orbit-resource.sourceforge.net/
@@ -36,17 +36,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ORBit2-2.14.3-X-src.tar.bz2
+  unpack ORBit2-2.14.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ORBit2-2.14.3-X.cygport all
+  cygport ./ORBit2-2.14.4-X.cygport all
 
 This will create:
-  /usr/src/ORBit2-2.14.3-X-src.tar.bz2
-  /usr/src/ORBit2-2.14.3-X.tar.bz2
-  /usr/src/ORBit2-devel-2.14.3-X.tar.bz2
-  /usr/src/ORBit2-doc-2.14.3-X.tar.bz2
+  /usr/src/ORBit2-2.14.4-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.4-X.tar.bz2
+  /usr/src/ORBit2-devel-2.14.4-X.tar.bz2
+  /usr/src/ORBit2-doc-2.14.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -60,17 +60,17 @@ Files included in the binary package:
   /usr/bin/typelib-dump.exe
   /usr/lib/orbit-2.0/Everything_module.dll
   /usr/lib/orbit-2.0/Everything_module.la
-  /usr/share/doc/Cygwin/ORBit2-2.14.3.README
-  /usr/share/doc/ORBit2-2.14.3/AUTHORS
-  /usr/share/doc/ORBit2-2.14.3/ChangeLog
-  /usr/share/doc/ORBit2-2.14.3/COPYING
-  /usr/share/doc/ORBit2-2.14.3/COPYING.LIB
-  /usr/share/doc/ORBit2-2.14.3/HACKING
-  /usr/share/doc/ORBit2-2.14.3/INSTALL
-  /usr/share/doc/ORBit2-2.14.3/MAINTAINERS
-  /usr/share/doc/ORBit2-2.14.3/NEWS
-  /usr/share/doc/ORBit2-2.14.3/README
-  /usr/share/doc/ORBit2-2.14.3/TODO
+  /usr/share/doc/Cygwin/ORBit2-2.14.4.README
+  /usr/share/doc/ORBit2-2.14.4/AUTHORS
+  /usr/share/doc/ORBit2-2.14.4/ChangeLog
+  /usr/share/doc/ORBit2-2.14.4/COPYING
+  /usr/share/doc/ORBit2-2.14.4/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.4/HACKING
+  /usr/share/doc/ORBit2-2.14.4/INSTALL
+  /usr/share/doc/ORBit2-2.14.4/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.4/NEWS
+  /usr/share/doc/ORBit2-2.14.4/README
+  /usr/share/doc/ORBit2-2.14.4/TODO
 
 Files included in the devel package:
 
@@ -153,6 +153,9 @@ Files included in the doc package:
 ------------------
 
 Port Notes:
+
+----- version 2.14.4-1 -----
+Version bump.
 
 ----- version 2.14.3-1 -----
 Version bump for GNOME 2.16.
