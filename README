@@ -8,7 +8,7 @@ available. ORBit2 is engineered for the GNU Object Model Environment
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.12.9-1
+  glib2-2.12.13-1
   libIDL2-0.8.8-1
   minires-1.01-1
 
@@ -18,10 +18,10 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.6-1.6.3-2
   binutils-20060817-1
-  cygport-0.2.10-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gtk-doc-1.7-1
+  gtk-doc-1.8-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
@@ -36,17 +36,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ORBit2-2.14.7-X-src.tar.bz2
+  unpack ORBit2-2.14.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ORBit2-2.14.7-X.cygport all
+  cygport ./ORBit2-2.14.8-X.cygport all
 
 This will create:
-  /usr/src/ORBit2-2.14.7-X-src.tar.bz2
-  /usr/src/ORBit2-2.14.7-X.tar.bz2
-  /usr/src/ORBit2-devel-2.14.7-X.tar.bz2
-  /usr/src/ORBit2-doc-2.14.7-X.tar.bz2
+  /usr/src/ORBit2-2.14.8-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.8-X.tar.bz2
+  /usr/src/ORBit2-devel-2.14.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -60,17 +59,17 @@ Files included in the binary package:
   /usr/bin/typelib-dump.exe
   /usr/lib/orbit-2.0/Everything_module.dll
   /usr/lib/orbit-2.0/Everything_module.la
-  /usr/share/doc/Cygwin/ORBit2-2.14.7.README
-  /usr/share/doc/ORBit2-2.14.7/AUTHORS
-  /usr/share/doc/ORBit2-2.14.7/ChangeLog
-  /usr/share/doc/ORBit2-2.14.7/COPYING
-  /usr/share/doc/ORBit2-2.14.7/COPYING.LIB
-  /usr/share/doc/ORBit2-2.14.7/HACKING
-  /usr/share/doc/ORBit2-2.14.7/INSTALL
-  /usr/share/doc/ORBit2-2.14.7/MAINTAINERS
-  /usr/share/doc/ORBit2-2.14.7/NEWS
-  /usr/share/doc/ORBit2-2.14.7/README
-  /usr/share/doc/ORBit2-2.14.7/TODO
+  /usr/share/doc/Cygwin/ORBit2-2.14.8.README
+  /usr/share/doc/ORBit2-2.14.8/AUTHORS
+  /usr/share/doc/ORBit2-2.14.8/ChangeLog
+  /usr/share/doc/ORBit2-2.14.8/COPYING
+  /usr/share/doc/ORBit2-2.14.8/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.8/HACKING
+  /usr/share/doc/ORBit2-2.14.8/INSTALL
+  /usr/share/doc/ORBit2-2.14.8/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.8/NEWS
+  /usr/share/doc/ORBit2-2.14.8/README
+  /usr/share/doc/ORBit2-2.14.8/TODO
 
 Files included in the devel package:
 
@@ -133,10 +132,6 @@ Files included in the devel package:
   /usr/lib/pkgconfig/ORBit-idl-2.0.pc
   /usr/lib/pkgconfig/ORBit-imodule-2.0.pc
   /usr/share/aclocal/ORBit2.m4
-  /usr/share/idl/orbit-2.0/CosNaming.idl
-
-Files included in the doc package:
-
   /usr/share/gtk-doc/html/ORBit2/ORBit2-orbit2-allocators.html
   /usr/share/gtk-doc/html/ORBit2/ORBit2-orbit2-small.html
   /usr/share/gtk-doc/html/ORBit2/ORBit2.devhelp
@@ -149,10 +144,14 @@ Files included in the doc package:
   /usr/share/gtk-doc/html/ORBit2/right.png
   /usr/share/gtk-doc/html/ORBit2/style.css
   /usr/share/gtk-doc/html/ORBit2/up.png
+  /usr/share/idl/orbit-2.0/CosNaming.idl
 
 ------------------
 
 Port Notes:
+
+----- version 2.14.8-1 -----
+Version bump.
 
 ----- version 2.14.7-1 -----
 Version bump.
