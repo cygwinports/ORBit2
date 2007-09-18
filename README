@@ -36,16 +36,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ORBit2-2.14.8-X-src.tar.bz2
+  unpack ORBit2-2.14.9-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ORBit2-2.14.8-X.cygport all
+  cygport ./ORBit2-2.14.9-X.cygport all
 
 This will create:
-  /usr/src/ORBit2-2.14.8-X-src.tar.bz2
-  /usr/src/ORBit2-2.14.8-X.tar.bz2
-  /usr/src/ORBit2-devel-2.14.8-X.tar.bz2
+  /usr/src/ORBit2-2.14.9-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.9-X.tar.bz2
+  /usr/src/ORBit2-devel-2.14.9-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,17 +59,17 @@ Files included in the binary package:
   /usr/bin/typelib-dump.exe
   /usr/lib/orbit-2.0/Everything_module.dll
   /usr/lib/orbit-2.0/Everything_module.la
-  /usr/share/doc/Cygwin/ORBit2-2.14.8.README
-  /usr/share/doc/ORBit2-2.14.8/AUTHORS
-  /usr/share/doc/ORBit2-2.14.8/ChangeLog
-  /usr/share/doc/ORBit2-2.14.8/COPYING
-  /usr/share/doc/ORBit2-2.14.8/COPYING.LIB
-  /usr/share/doc/ORBit2-2.14.8/HACKING
-  /usr/share/doc/ORBit2-2.14.8/INSTALL
-  /usr/share/doc/ORBit2-2.14.8/MAINTAINERS
-  /usr/share/doc/ORBit2-2.14.8/NEWS
-  /usr/share/doc/ORBit2-2.14.8/README
-  /usr/share/doc/ORBit2-2.14.8/TODO
+  /usr/share/doc/Cygwin/ORBit2-2.14.9.README
+  /usr/share/doc/ORBit2-2.14.9/AUTHORS
+  /usr/share/doc/ORBit2-2.14.9/ChangeLog
+  /usr/share/doc/ORBit2-2.14.9/COPYING
+  /usr/share/doc/ORBit2-2.14.9/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.9/HACKING
+  /usr/share/doc/ORBit2-2.14.9/INSTALL
+  /usr/share/doc/ORBit2-2.14.9/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.9/NEWS
+  /usr/share/doc/ORBit2-2.14.9/README
+  /usr/share/doc/ORBit2-2.14.9/TODO
 
 Files included in the devel package:
 
@@ -149,6 +149,9 @@ Files included in the devel package:
 ------------------
 
 Port Notes:
+
+----- version 2.14.9-1 -----
+Version bump.
 
 ----- version 2.14.8-1 -----
 Version bump.
