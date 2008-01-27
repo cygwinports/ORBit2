@@ -7,19 +7,19 @@ available. ORBit2 is engineered for the GNU Object Model Environment
 (GNOME) with a focus on performance, low resource usage, and security.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  glib2-2.12.13-1
+  cygwin-1.5.25-7
+  glib2-2.14.5-1
   libIDL2-0.8.9-1
   minires-1.01-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
   cygport-0.3.7-1
-  gawk-3.1.5-4
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gtk-doc-1.9-1
   libtool1.5-1.5.23a-2
@@ -36,16 +36,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ORBit2-2.14.10-X-src.tar.bz2
+  unpack ORBit2-2.14.11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ORBit2-2.14.10-X.cygport all
+  cygport ./ORBit2-2.14.11-X.cygport all
 
 This will create:
-  /usr/src/ORBit2-2.14.10-X-src.tar.bz2
-  /usr/src/ORBit2-2.14.10-X.tar.bz2
-  /usr/src/ORBit2-devel-2.14.10-X.tar.bz2
+  /usr/src/ORBit2-2.14.11-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.11-X.tar.bz2
+  /usr/src/ORBit2-devel-2.14.11-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,17 +59,17 @@ Files included in the binary package:
   /usr/bin/typelib-dump.exe
   /usr/lib/orbit-2.0/Everything_module.dll
   /usr/lib/orbit-2.0/Everything_module.la
-  /usr/share/doc/Cygwin/ORBit2-2.14.10.README
-  /usr/share/doc/ORBit2-2.14.10/AUTHORS
-  /usr/share/doc/ORBit2-2.14.10/ChangeLog
-  /usr/share/doc/ORBit2-2.14.10/COPYING
-  /usr/share/doc/ORBit2-2.14.10/COPYING.LIB
-  /usr/share/doc/ORBit2-2.14.10/HACKING
-  /usr/share/doc/ORBit2-2.14.10/INSTALL
-  /usr/share/doc/ORBit2-2.14.10/MAINTAINERS
-  /usr/share/doc/ORBit2-2.14.10/NEWS
-  /usr/share/doc/ORBit2-2.14.10/README
-  /usr/share/doc/ORBit2-2.14.10/TODO
+  /usr/share/doc/Cygwin/ORBit2-2.14.11.README
+  /usr/share/doc/ORBit2-2.14.11/AUTHORS
+  /usr/share/doc/ORBit2-2.14.11/ChangeLog
+  /usr/share/doc/ORBit2-2.14.11/COPYING
+  /usr/share/doc/ORBit2-2.14.11/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.11/HACKING
+  /usr/share/doc/ORBit2-2.14.11/INSTALL
+  /usr/share/doc/ORBit2-2.14.11/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.11/NEWS
+  /usr/share/doc/ORBit2-2.14.11/README
+  /usr/share/doc/ORBit2-2.14.11/TODO
 
 Files included in the devel package:
 
@@ -149,6 +149,9 @@ Files included in the devel package:
 ------------------
 
 Port Notes:
+
+----- version 2.14.11-1 -----
+Version bump.
 
 ----- version 2.14.10-1 -----
 Version bump.
