@@ -1,6 +1,6 @@
 category: Gnome
-requires: cygwin glib2 libIDL2 minires
-sdesc: "CORBA 2.4 Object Request Broker library (runtime)"
+requires: cygwin libORBit2_0
+sdesc: "CORBA 2.4 Object Request Broker library (apps)"
 ldesc: "ORBit2 is a CORBA 2.4-compliant Object Request Broker (ORB) 
 featuring mature C and Perl bindings.  It supports POA, DII, DSI, 
 TypeCode, Any, IR and IIOP.  Optional features including INS and 

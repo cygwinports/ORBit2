@@ -7,24 +7,24 @@ available. ORBit2 is engineered for the GNU Object Model Environment
 (GNOME) with a focus on performance, low resource usage, and security.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  glib2-2.16.3-1
-  libIDL2-0.8.10-1
+  cygwin-1.5.25-15
+  libglib2.0_0-2.18.3-1
+  libIDL2_0-0.8.12-1
   minires-1.01-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.2-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gnome-common-2.20.0-2
-  gtk-doc-1.10-1
-  libtool-2.2.2-2
+  gnome-common-2.24.0-1
+  gtk-doc-1.11-1
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -36,42 +36,45 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ORBit2-2.14.13-X-src.tar.bz2
+  unpack ORBit2-2.14.16-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ORBit2-2.14.13-X.cygport all
+  cygport ./ORBit2-2.14.16-X.cygport all
 
 This will create:
-  /usr/src/ORBit2-2.14.13-X-src.tar.bz2
-  /usr/src/ORBit2-2.14.13-X.tar.bz2
-  /usr/src/ORBit2-devel-2.14.13-X.tar.bz2
+  /usr/src/ORBit2-2.14.16-X-src.tar.bz2
+  /usr/src/ORBit2-2.14.16-X.tar.bz2
+  /usr/src/libORBit2_0-2.14.16-X.tar.bz2
+  /usr/src/libORBit2-devel-2.14.16-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
 (ORBit2)
-  /usr/bin/cygORBit-2-0.dll
-  /usr/bin/cygORBit-imodule-2-0.dll
-  /usr/bin/cygORBitCosNaming-2-0.dll
   /usr/bin/ior-decode-2.exe
   /usr/bin/linc-cleanup-sockets.exe
   /usr/bin/typelib-dump.exe
+  /usr/share/doc/ORBit2-2.14.16/AUTHORS
+  /usr/share/doc/ORBit2-2.14.16/ChangeLog
+  /usr/share/doc/ORBit2-2.14.16/COPYING
+  /usr/share/doc/ORBit2-2.14.16/COPYING.LIB
+  /usr/share/doc/ORBit2-2.14.16/HACKING
+  /usr/share/doc/ORBit2-2.14.16/INSTALL
+  /usr/share/doc/ORBit2-2.14.16/MAINTAINERS
+  /usr/share/doc/ORBit2-2.14.16/NEWS
+  /usr/share/doc/ORBit2-2.14.16/README
+  /usr/share/doc/ORBit2-2.14.16/TODO
+
+(libORBit2_0)
+  /usr/bin/cygORBit-2-0.dll
+  /usr/bin/cygORBit-imodule-2-0.dll
+  /usr/bin/cygORBitCosNaming-2-0.dll
   /usr/lib/orbit-2.0/Everything_module.dll
   /usr/lib/orbit-2.0/Everything_module.la
-  /usr/share/doc/ORBit2-2.14.13/AUTHORS
-  /usr/share/doc/ORBit2-2.14.13/ChangeLog
-  /usr/share/doc/ORBit2-2.14.13/COPYING
-  /usr/share/doc/ORBit2-2.14.13/COPYING.LIB
-  /usr/share/doc/ORBit2-2.14.13/HACKING
-  /usr/share/doc/ORBit2-2.14.13/INSTALL
-  /usr/share/doc/ORBit2-2.14.13/MAINTAINERS
-  /usr/share/doc/ORBit2-2.14.13/NEWS
-  /usr/share/doc/ORBit2-2.14.13/README
-  /usr/share/doc/ORBit2-2.14.13/TODO
 
-(ORBit2-devel)
+(libORBit2-devel)
   /usr/bin/orbit-idl-2.exe
   /usr/bin/orbit2-config
   /usr/include/orbit-2.0/ORBitservices/CosNaming.h
@@ -148,6 +151,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.14.16-1 -----
+Version bump.
 
 ----- version 2.14.13-1 -----
 Version bump.

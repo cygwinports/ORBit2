@@ -1,0 +1,31 @@
+if_nameindex() and company will be available in cygwin-1.7.
+
+--- origsrc/ORBit2-2.14.16/linc2/src/linc-protocols.c	2008-09-16 08:09:41.000000000 -0500
++++ src/ORBit2-2.14.16/linc2/src/linc-protocols.c	2008-12-07 15:30:16.909250000 -0600
+@@ -144,15 +144,18 @@
+ get_first_non_local_ipaddr(char *buf, 
+ 			   size_t len)
+ {
++#ifndef __CYGWIN__
+ 	int sock;
+ 	const char *retv;
+ 	struct if_nameindex *ifname_idx_array;
+ 	struct if_nameindex *ifname_idx;
+ 	struct sockaddr_in sin;
+ 	struct ifreq ifr;
++#endif
+ 
+ 	*buf = '\0';
+ 
++#ifndef __CYGWIN__
+ 	sock = socket(AF_INET, SOCK_DGRAM, 0);
+ 	if (-1 == sock)
+ 		return;
+@@ -177,6 +180,7 @@
+ 
+ 	if (-1 != sock)
+ 		close(sock);
++#endif
+ }
+ #endif
+ 
