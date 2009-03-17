@@ -3,8 +3,6 @@ inherit gnome2
 DESCRIPTION="CORBA 2.4 Object Request Broker library"
 HOMEPAGE="http://www.gnome.org/projects/ORBit2/"
 
-PATCH_URI="2.14.16-if_nameindex.patch"	# remove for 1.7
-
 PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel"
 ORBit2_CONTENTS="--exclude=usr/bin/orbit* usr/bin/*.exe usr/share/doc/"
 libORBit2_0_CONTENTS="usr/bin/*-0.dll usr/lib/orbit-2.0/"
