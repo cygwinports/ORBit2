@@ -1,9 +1,0 @@
-category: Gnome
-requires: libglib2.0_0 libORBit2_0
-sdesc: "CORBA 2.4 Object Request Broker library (apps)"
-ldesc: "ORBit2 is a CORBA 2.4-compliant Object Request Broker (ORB) 
-featuring mature C and Perl bindings.  It supports POA, DII, DSI, 
-TypeCode, Any, IR and IIOP.  Optional features including INS and 
-threading are available. ORBit2 is engineered for the GNU Object Model 
-Environment (GNOME) with a focus on performance, low resource usage, 
-and security."
